@@ -1,0 +1,58 @@
+.logo{
+  border-radius: 50% !important;
+  height: 30px !important;
+  width: 30px !important;
+}
+
+.surish{
+  margin-right: auto;
+}
+
+.nav_size{
+  margin-left: 15px;
+  color: rgb(69, 69, 240);
+}
+
+.nav_sizes{
+  display: block !important;
+}
+
+.nav_item{
+  display: none !important;
+}
+
+.getstart{
+  background-color: rgba(46, 145, 170, 0.568) !important;
+  color: blue !important;
+}
+.ft{
+  color: rgb(187, 176, 176);
+  margin-left: 20px !important;
+}
+
+.m{
+  color: rgb(119, 115, 115);
+  margin-left: 20px !important;
+
+}
+
+@media screen and (max-width:768px){
+  .logo{
+    border-radius: 50% !important;
+    height: 15x !important;
+    width: 30px !important;
+  } 
+
+  .nav_size{
+    margin-left: 15px;
+    color: rgb(69, 69, 240);
+  }
+
+  .nav_sizes{
+    display: none !important;
+  }
+  
+  .nav_item{
+    display: inline-block !important;
+  }
+}
